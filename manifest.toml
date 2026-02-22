@@ -2,7 +2,7 @@
 # You typically do not need to edit this file
 
 packages = [
-  { name = "castor", version = "1.0.0", build_tools = ["gleam"], requirements = ["gleam_json", "gleam_stdlib", "non_empty_list", "oas_generator_utils"], otp_app = "castor", source = "hex", outer_checksum = "D07048F5E9B0AB04076714168E45DB367A000C7F572B2BAD84E5314DFBBA1459" },
+  { name = "castor", version = "2.0.0", build_tools = ["gleam"], requirements = ["gleam_json", "gleam_stdlib", "non_empty_list", "oas_generator_utils"], otp_app = "castor", source = "hex", outer_checksum = "165CFE776658EF08C54C01972444AB2DCA1DC4BDB6AD91E7EBBA85C4C4A4CC5F" },
   { name = "gleam_http", version = "4.3.0", build_tools = ["gleam"], requirements = ["gleam_stdlib"], otp_app = "gleam_http", source = "hex", outer_checksum = "82EA6A717C842456188C190AFB372665EA56CE13D8559BF3B1DD9E40F619EE0C" },
   { name = "gleam_javascript", version = "1.0.0", build_tools = ["gleam"], requirements = ["gleam_stdlib"], otp_app = "gleam_javascript", source = "hex", outer_checksum = "EF6C77A506F026C6FB37941889477CD5E4234FCD4337FF0E9384E297CB8F97EB" },
   { name = "gleam_json", version = "3.1.0", build_tools = ["gleam"], requirements = ["gleam_stdlib"], otp_app = "gleam_json", source = "hex", outer_checksum = "44FDAA8847BE8FC48CA7A1C089706BD54BADCC4C45B237A992EDDF9F2CDB2836" },
@@ -13,7 +13,7 @@ packages = [
 ]
 
 [requirements]
-castor = { version = ">= 1.0.0 and < 2.0.0" }
+castor = { version = ">= 2.0.0 and < 3.0.0" }
 gleam_http = { version = ">= 3.7.0 and < 5.0.0" }
 gleam_json = { version = ">= 3.0.0 and < 4.0.0" }
 gleam_stdlib = { version = ">= 0.60.0 and < 2.0.0" }
