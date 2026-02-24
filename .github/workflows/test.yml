@@ -3,7 +3,6 @@ name: test
 on:
   push:
     branches:
-      - master
       - main
   pull_request:
 
@@ -13,7 +12,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        gleam: ["1.12", "1.13", "1.14"]
+        gleam: ["1.13", "1.14"]
         otp: ["28.3"]
         rebar3: ["3.26"]
     steps:
