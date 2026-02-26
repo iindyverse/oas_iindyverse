@@ -13,8 +13,8 @@ jobs:
       fail-fast: false
       matrix:
         gleam: ["1.13", "1.14"]
-        otp: ["28.3"]
-        rebar3: ["3.26"]
+        otp: ["28"]
+        rebar3: ["3"]
     steps:
       - uses: actions/checkout@v4
       - uses: erlef/setup-beam@v1
